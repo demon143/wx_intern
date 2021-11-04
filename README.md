@@ -2,10 +2,10 @@
 微信视频号推荐比赛相关
 
 复现环境：
-python==3.6.9
-gensim==4.1.2
-numpy==1.19.2
-deepctr==0.9.0
+python==3.6.9,
+gensim==4.1.2,
+numpy==1.19.2,
+deepctr==0.9.0,
 tensorflow==1.15.5
 
     先运行word2vec_item.py生成item embedding向量之后，在mmoe中将feedid对应的embedding向量拼接上去。最后运行run_mmoe.py文件，训练mmoe。
