@@ -17,7 +17,6 @@ from time import time
 from deepctr.feature_column import SparseFeat, DenseFeat, VarLenSparseFeat, get_feature_names
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 from mmoe import MMOE
-from evaluation import evaluate_deepctr
 from tensorflow.keras.optimizers import Adam, Adagrad
 from sklearn.model_selection import StratifiedKFold
 from tensorflow.python.keras.models import save_model, load_model
