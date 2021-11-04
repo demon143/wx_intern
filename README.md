@@ -2,9 +2,16 @@
 微信视频号推荐比赛相关
 
 复现环境：
-python==3.6.9,
-gensim==4.1.2,
+
+对于word2vec_item.py：
+Python 3.8.8,
 numpy==1.19.2,
+gensim==4.1.2
+
+对于run_mmoe.py:
+Python==3.6.9,
+gensim==4.1.2,
+numpy==1.18.5,
 deepctr==0.9.0,
 tensorflow==1.15.5
 
